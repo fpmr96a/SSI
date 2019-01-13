@@ -10,6 +10,7 @@ import { AboutUsComponent } from './about-us.component';
 import { ArchitectureComponent } from './architecture.component';
 import { TechnologyComponent } from './technology.component';
 import { PortfolioComponent } from './portfolio.component';
+import { SidenavComponent } from './sidenav.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { PortfolioComponent } from './portfolio.component';
     AboutUsComponent,
     ArchitectureComponent,
     TechnologyComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
