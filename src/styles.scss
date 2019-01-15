@@ -9,7 +9,7 @@ $primary: orange;
 }
 
 body {
-    margin: 10;
+    margin: 0;
 }
 
 .flex-container {
@@ -54,4 +54,5 @@ body {
   .sidenav {
       width: 150px;
       background-color: whitesmoke;
+      border-top: gainsboro 1px solid;
   }
