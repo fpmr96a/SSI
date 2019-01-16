@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@angular/material/prebuilt-themes/indigo-pink.css';
-$primary: orange;
+$primary: #ffba42;
 
 // Color of Active Tab Underline
 // =============================
@@ -56,3 +56,10 @@ body {
       background-color: whitesmoke;
       border-top: gainsboro 1px solid;
   }
+
+  .mat-raised-button.mat-primary {
+    background-color:#c2c2c2;
+    height: 35px;
+    color: white;
+}
+
