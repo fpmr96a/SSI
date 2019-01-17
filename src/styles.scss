@@ -63,3 +63,37 @@ body {
     color: white;
 }
 
+ 
+ // Section Header With Top Left Corner ONLY rounded
+ // ================================================= 
+ .matcard-header-rounded-top-left {
+    height: 18px;
+    vertical-align: middle;
+    border-top-left-radius: 8px;
+    color: black;
+    background-color: white;
+    margin-top: 10px;
+    background: linear-gradient(to left, rgba(255,0,0,0), rgb(46, 77, 123));
+   }
+
+   // Section Header with Entire LEFT side roundered
+   // ==============================================
+  .matcard-header-rounded-left {
+    height: 17px;
+    vertical-align: middle;
+    border-radius: 8px;
+    color: black;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to left, rgba(255,0,0,0), rgb(255,186,66));
+   }
+
+   .mat-card-title {
+       font-size: small !important;
+   }
+   .small-text {
+       font-size: 12px !important;
+       margin-left: 20px;
+   }
+
