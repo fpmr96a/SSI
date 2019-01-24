@@ -79,15 +79,21 @@ body {
    // Section Header with Entire LEFT side roundered
    // ==============================================
   .matcard-header-rounded-left {
-    height: 17px;
-    vertical-align: middle;
+    height: 25px;
     border-radius: 8px;
-    color: black;
+    color: gray;
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
     background: linear-gradient(to left, rgba(255,0,0,0), rgb(255,186,66));
    }
+
+    // Sizing for Secton Header, which is mat card title
+   // =================================================
+  .mat-card-header .mat-card-title {
+    font-size: 12px;
+    margin-top: 5px;
+  }
 
    .mat-card-title {
        font-size: small !important;
